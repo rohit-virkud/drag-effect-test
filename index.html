@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Elastic Stack</title>
+		
+	
+		<link rel="stylesheet" type="text/css" href="component.css" />
+		<script src="modernizr.custom.js"></script>
+		<style type="text/css">
+			.img-03
+			{
+				background: url('five.jpg')no-repeat;
+				background-size: cover;
+				background-position: center;
+			}
+			.img-02
+			{
+				background: url('seven.jpg')no-repeat;
+				background-size: cover;
+				background-position: center;
+			}
+			.img-01
+			{
+				background: url('one.jpg')no-repeat;
+				background-size: cover;
+				background-position: center;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="container">
+			<!-- Top Navigation -->
+			<ul id="elasticstack" class="elasticstack">
+				<li class="img-01">
+
+				<!--	<img src="one.jpg" alt="01"/>-->
+
+
+				<h5><a href="https://www.google.com.ua"><span>Slide-01</span></a></h5>
+
+				</li>
+				<li class="img-02">
+					<!--<img src="seven.jpg" alt="02"/> -->
+
+					<h5><a href="https://www.youtube.com/"><span>Slide-02</span></a></h5>
+				</li>
+				<li class="img-03">
+					<h5><a href="https://github.com/"><span>Slide-03</span></a></h5>
+				</li>
+				
+			</ul>
+			
+		</div><!-- /container -->
+		<script src="draggabilly.pkgd.min.js"></script>
+		<script src="elastiStack.js"></script>
+		<script>
+			new ElastiStack( document.getElementById( 'elasticstack' ) );
+		</script>
+	</body>
+</html>
