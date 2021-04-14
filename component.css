@@ -48,6 +48,13 @@ background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, F
   color: #000;
 }
 
+a{
+  color: white;
+}
+span
+{
+  color: white;
+}
 .elasticstack li {
   position: absolute;
   z-index: 1;
