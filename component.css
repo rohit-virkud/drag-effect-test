@@ -13,6 +13,16 @@ background: -webkit-linear-gradient(to right, #8CA6DB, #B993D6);  /* Chrome 10-2
 background: linear-gradient(to right, #8CA6DB, #B993D6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+.clearfix:before,
+.clearfix:after {
+	content: '';
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
 
 .elasticstack {
 	position: relative;
