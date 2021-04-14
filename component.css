@@ -28,8 +28,8 @@ font-family: 'Lato', Arial, sans-serif;
   position: relative;
   /* margin: 40px auto;*/
   padding: 0;
-  width: 60%;
-  height: 60%;
+  width: 80%;
+  height: 80%;
   list-style: none;
   -webkit-perspective: 1000px;
   -webkit-perspective-origin: 50% 150%;
